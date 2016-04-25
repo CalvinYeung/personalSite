@@ -128,13 +128,13 @@ hr.hrBar {
 	width: 100%;
 }
 .bannerDetails h1{
-	color:white;
+	color: rgb(255,205,0);
 	font-family: 'Poiret One', cursive;
 	font-size: 85px;
 }
 
 .bannerDetails h2{
-	color: white;
+	color: rgb(255,205,0);
 	position: absolute;
 	font-family: 'Poiret One', cursive;
 	font-size: 45px;
