@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+
+  $('.bannerDetails').hide();
+
+  setTimeout(function(){
+  	$('.bannerDetails').show()
+  }, 550)
+
   $('.bxslider').bxSlider();
 
   // Scroll to div
