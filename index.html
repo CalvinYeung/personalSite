@@ -24,7 +24,7 @@
 	<div class="parallax-window coverImage" data-parallax="scroll" data-image-src="./pictures/bullcopy.jpg" id="home">
 		<div class="container top-banner">
 			<div class="row">
-				<div class="col-sm-12" id="navBar">
+				<div class="col-xs-12 col-md-12" id="navBar">
 					<a href="#home">CY</a>
 					<div class="pull-right">
 						<a href="#profile">Profile</a>
@@ -35,30 +35,32 @@
 				</div>
 			</div>
 		</div>
-		<!-- Name and occupation on home -->
+		
+		<!-- Front page -->
 		<div class="container">
 			<div class="topBanner row">
-				<div class="bannerDetails col-sm-6 ">
+				<div class="bannerDetails col-sm-6  col-md-6 ">
 					<h1 class="animated fadeInLeftBig">CalvinYeung</h1>
 					<h2 class="animated fadeInRightBig">Web Developer</h2>
 				</div>
-				<div class="col-sm-6"></div>
+				<div class="col-sm-6  col-md-6"></div>
 			</div>
 		</div>
 	</div>
 
+	<!-- Profile which includes about me, details and photo -->
 	<div class="container profile" id="profile">
 		<div class="row">
-			<h2 class="col-sm-12 title">Profile</h2>
+			<h2 class="col-sm-12 col-md-12 title">Profile</h2>
 		</div>
 		<hr class="hrBarProfile">
 		<div class="row">
-			<div class="col-sm-4 profileAboutMe">
+			<div class="col-sm-4 col-md-4 profileAboutMe">
 				<h3>About Me</h3>
 				<hr class="hrBar">
-				<p>I started life off as a wee lad, and have been learning ever since. I Attended Temple University to study Marketing and Entreprenuership. During my Junior year, I decided to apply my studies and I went on to open a restaurant business along with my brother. Upon my college graduation, I began to dabble with coding for the first time. I read books and completed online tutorials. With a growing curiousity of coding, and a desire to master web development, I invested in myself again and enrolled in a Web Development Immersive program with General Assembly.</p>
+				<p>I started life off as a wee lad, and have been learning ever since. I attended Temple University to study Marketing and Entreprenuership. During my Junior year, I decided to apply my studies and I went on to open a restaurant business along with my brother. Upon my college graduation, I began to dabble with coding for the first time. I read books and completed online tutorials. With a growing curiousity of coding, and a desire to master web development, I invested in myself again and enrolled in a Web Development Immersive program with General Assembly.</p>
 			</div>
-			<div class="col-sm-4 hidden-xs">
+			<div class="col-sm-4 col-md-4 hidden-xs">
 				<div class="profilePicture">
 					<img src="./pictures/suit.jpg">
 				</div>
@@ -67,33 +69,35 @@
 				<h3>Details</h3>
 				<hr class="hrBar">
 				<div class="profileDetailsScrollDiv">
-					<strong>Name:</strong><br>
+					<strong>Name</strong><br>
 					<p>Calvin Yeung</p>
 
-					<strong>Age:</strong><br>
+					<strong>Age</strong><br>
 					<p>24</p>
 
-					<strong>Location:</strong><br>
+					<strong>Location</strong><br>
 					<p>New York, NY</p>
 
-					<strong>Hobbies:</strong><br>
+					<strong>Hobbies</strong><br>
 					<p>DIY projects, <br>
-					   beer tasting,<br>
+					   learning code,<br>
 					   cooking, <br>
+					   reading, <br>
 					   walking my dog, <br>
 					   traveling, <br>
 					   board games,<br>
 					   sports,<br>
 					   networking,<br>
+
 					</p>
 
-					<strong>Why do you want to become a web developer?:</strong><br>
-					<p>The future of business heavily relies on the online pressence. Along with my personal enjoyment of using computers, ability to learn and apply programming languages, I wish to pursue a long career in web development. </p>
-<!-- 
-					<strong>How can you add value to a team?:</strong><br>
-					<p></p> -->
+					<strong>Why do you want to become a web developer?</strong><br>
+					<p>The future of business heavily relies on the online presence. Along with my personal enjoyment of using computers, ability to learn and apply programming languages, I wish to pursue a long career in web development. </p>
 
-					<strong>What languages can you speak?:</strong><br>
+					<strong>What do you like most about programming?</strong><br>
+					<p>The amount to learn seems endless. There are times where errors will seem impossible to fix. Which forces you to dissect your code, </p>
+
+					<strong>What languages can you speak?</strong><br>
 					<p>English, Mandarin, Cantonese, and Fuzhounese</p>
 
 				</div>
@@ -101,13 +105,18 @@
 		</div>
 	</div>
 
+	<!-- Projects  -->
 	<div class="container projects" id="projects">
 		<div class="row" id="projectsCarousel">
-			<h2 class="col-sm-12 title">Projects</h2>
+			<h2 class="col-sm-12 col-md-12 title">Projects</h2>
 			<hr class="hrBar">
 			<div class="bxslider">
 				
-				<div class="projectOuter" onclick="location.href='https://blinkedin-profile.herokuapp.com/';" style="cursor:pointer;">
+				<div class="projectOuter" onclick="location.href='http://ippindoramen.com/';" style="cursor:pointer;">
+	  				<img src="./pictures/ippindo.png"/>
+	  			</div>
+
+	  			<div class="projectOuter" onclick="location.href='https://blinkedin-profile.herokuapp.com/';" style="cursor:pointer;">
 	  				<img src="./pictures/blinkedIn.jpg"/>
 	  			</div>
 	  	
@@ -118,20 +127,20 @@
 		  		<div class="projectOuter" onclick="location.href='http://calvinyeung.github.io/POSsystem';" style="cursor:pointer;">
 		  			<img src="./pictures/posSystem.jpg"/>
 				</div>
-				
 			</div>
 		</div>
 	</div>
 
+	<!-- Skills -->
 	<div class="container skillsContainer" id="skills">
 		<div class="row skillsInner">
-			<h2 class="col-sm-12 title">Skills</h2>
+			<h2 class="col-sm-12 col-md-12 title">Skills</h2>
 			<hr class="hrBar">
 			<p class="quote">
 				“Success is not final, failure is not fatal: it is the courage to continue that counts.”<br>- Winston Churchill
 			</p>
 			<div class="row">
-				<ul class="col-md-6 skillsChart">
+				<ul class="col-md-6 col-md-6 skillsChart">
 					<li>
 						<span class="skillTitle">CSS3</span>
 						<span class="skillStars">
@@ -281,13 +290,12 @@
 		</div>
 	</div>
 
+	<!-- Contact -->
 	<div class="container contactContainer" id="contact">
-
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
 				<div class="row">
-					
 					<a class="col-xs-3 contactIcons" href="https://github.com/CalvinYeung">
 						<img src="./pictures/github.png"/>
 					</a>
@@ -309,14 +317,6 @@
 			<div class="col-md-2"></div>
 		</div>
 	</div>
-
-	<!-- <div class="container contactContainer" id="contact">
-		<div class="row contactContainer" id="contact">
-			<h2 class="col-sm-12 title">Contact</h2>
-			<hr class="hrBar">
-		</div>
-	</div> -->
-	
 
 </body>
 <script src="./script.js"></script>
