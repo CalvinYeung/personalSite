@@ -1,7 +1,7 @@
 
 /*CLASSES*/
 body {
-	min-width: 450px;
+	width: 100%;
 }
 
 .contactContainer {
@@ -47,7 +47,6 @@ body {
 
 .profileAboutMe {
 	position: relative;
-	margin-top: -8%;
 }
 
 .profileAboutMe h3 {
@@ -65,7 +64,6 @@ body {
 
 .profileDetails {
 	position: relative;
-	margin-top: -8%;
 }
 
 .profileDetails h3 {
